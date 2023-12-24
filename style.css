@@ -1,0 +1,29 @@
+#cards-container {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none; /* Initially hide all cards */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Show the first card initially */
+#card1 {
+    display: block;
+}
+
+
+body{
+  background-image: url("christmas.webp");
+  font-family: 'DancingScript-Variable';
+}
