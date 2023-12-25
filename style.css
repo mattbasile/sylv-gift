@@ -1,6 +1,6 @@
 #cards-container {
     position: relative;
-    height: 300px;
+    height: calc(100vh - 400px);
     overflow: hidden;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -19,11 +19,16 @@
 
 /* Show the first card initially */
 #card1 {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 
 body{
+  height: 100vh;
   background-image: url("christmas.webp");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   font-family: 'DancingScript-Variable';
 }
